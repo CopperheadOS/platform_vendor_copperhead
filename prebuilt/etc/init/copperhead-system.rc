@@ -1,1 +1,7 @@
 # Copperhead init additions
+
+on property:persist.security.native_debug=0
+    write /proc/sys/kernel/yama/ptrace_scope 2
+
+on property:persist.security.native_debug=1
+    write /proc/sys/kernel/yama/ptrace_scope 0
