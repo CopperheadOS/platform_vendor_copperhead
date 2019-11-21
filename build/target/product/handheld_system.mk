@@ -22,4 +22,4 @@
 PRODUCT_PACKAGES += \
     Stk
 
-ADDITIONAL_DEFAULT_PROPERTIES += persist.security.deny_new_usb=dynamic
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.security.deny_new_usb=dynamic

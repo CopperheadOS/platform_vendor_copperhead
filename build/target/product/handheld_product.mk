@@ -21,6 +21,7 @@
 
 PRODUCT_PACKAGES += \
     Backup \
+    chromium \
     Etar-Calendar \
     F-Droid \
     FDroidPrivilegedExtension \
@@ -32,5 +33,6 @@ PRODUCT_PACKAGES += \
     Todo-agenda \
     Updater
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    net.tethering.noprovisioning=true
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    net.tethering.noprovisioning=true \
+    ro.randomize_mac=1
