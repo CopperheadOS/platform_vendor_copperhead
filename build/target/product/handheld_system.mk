@@ -23,3 +23,5 @@ PRODUCT_PACKAGES += \
     Stk
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.security.deny_new_usb=dynamic
+
+-include branding/branding.mk
