@@ -22,6 +22,9 @@
 PRODUCT_PACKAGES += \
     Stk
 
+PRODUCT_COPY_FILES += \
+    vendor/copperhead/prebuilt/etc/init/copperhead-system.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/copperhead-system.rc
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.security.deny_new_usb=dynamic
 
 -include branding/branding.mk
