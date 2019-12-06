@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     offline-calendar \
     PdfViewer \
     privacy-friendly-netmonitor \
+    Seedvault \
     Silence \
     talkback \
     Todo-agenda \
