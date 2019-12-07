@@ -25,6 +25,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/copperhead/prebuilt/etc/init/copperhead-system.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/copperhead-system.rc
 
+DEVICE_PACKAGE_OVERLAYS += vendor/copperhead/overlay
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.security.deny_new_usb=dynamic
 
 -include branding/branding.mk
